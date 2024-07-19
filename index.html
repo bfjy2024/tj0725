@@ -43,18 +43,21 @@
         margin-bottom: 5px;
     }
     table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
+      width: 100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+      margin-bottom: 20px;
     }
+
     th, td {
-        padding: 10px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
     }
+
     th {
-        background-color: #e0e0e0;
-        font-weight: bold;
+      background-color: #e0e0e0;
+      font-weight: bold;
     }
     .footer {
         text-align: center;
@@ -158,6 +161,10 @@ footer .social-link {
 <h3>上午</h3>
 <h4>天津之眼摩天轮</h4>
 <table>
+    <colgroup>
+    <col style="width: 10%">
+    <col style="width: 90%">
+  </colgroup>
     <tr>
     <th><span class="icon icon-time"></span>时间</th>
     <td>09:00 - 10:30</td>
@@ -183,6 +190,10 @@ footer .social-link {
 <h3>中午</h3>
 <h4>午餐</h4>
 <table>
+    <colgroup>
+        <col style="width: 10%">
+        <col style="width: 90%">
+    </colgroup>
     <tr>
         <th><span class="icon icon-time"></span>时间</th>
         <td>11:00 - 12:30</td>
@@ -201,6 +212,10 @@ footer .social-link {
 <h3>下午</h3>
 <h4>泰达航母主题公园</h4>
 <table>
+    <colgroup>
+        <col style="width: 10%">
+        <col style="width: 90%">
+    </colgroup>
     <tr>
         <th><span class="icon icon-time"></span>时间</th>
         <td>13:00 - 16:00</td>
@@ -227,6 +242,10 @@ footer .social-link {
 <h3>傍晚</h3>
 <h4>盘山风景区</h4>
 <table>
+    <colgroup>
+        <col style="width: 10%">
+        <col style="width: 90%">
+    </colgroup>
     <tr>
         <th><span class="icon icon-time"></span>时间</th>
         <td>17:00 - 19:00</td>
