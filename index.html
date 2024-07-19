@@ -95,6 +95,34 @@
         background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M11,9H13V15H11V9M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10-4.48 10-10S17.52,2 12,2zM12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20z"/></svg>');
         background-size: cover;
     }
+        
+        footer.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-link {
+    font-size: 1.5em;
+}
 </style>
 </head>
 <body>
@@ -231,6 +259,16 @@
 <div class="footer">
     <a href="https://github.com/wsl11111/tjyry0726"><i class="fab fa-github"></i> 查看源码</a>
 </div>
-
+<footer class="footer">
+    <div class="container">
+        <p>版权所有 © 2024 天津建模三人行</p>
+        <p>联系我们：<a href="https://github.com/wsl11111/bfjy">info@tjdaytour.com</a></p>
+        <p>关注我们：
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </p>
+    </div>
+</footer>
 </body>
 </html>
